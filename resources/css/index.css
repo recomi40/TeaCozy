@@ -6,6 +6,7 @@ body {
   background-color: black;
   text-align: center;
   margin: 0;
+  opacity: 0.9;
 }
 
 
@@ -57,7 +58,7 @@ div {
 
 .main {
   padding-top: 69px;
-  opacity: .9;
+
   width: 1200px;
   margin: auto;
 }
@@ -126,17 +127,20 @@ h4 {
 
 }
 
+.flex-container .location {
+  display: inline;
+}
 
-.flex-container.locations {
-  display: inline-flex;
+#locations .location {
   width: 1100px;
-  margin: 0px 50px;
+  margin: auto;
   padding-top: 5px;
+  position: absolute;
 
 }
 
 .areas {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
   background-color: black;
@@ -156,9 +160,6 @@ h3 {
   margin: 0px;
 }
 
-p {
-  display: block
-}
 
 
 /* Contact section */
