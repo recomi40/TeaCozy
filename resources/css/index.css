@@ -1,0 +1,180 @@
+body {
+  display: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* Header section */
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+
+/* Main Area section */
+
+div {
+  display: block;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: .9;
+  width: 1200px;
+  margin: auto;
+}
+
+
+/* Mission section */
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: block;
+  margin: auto;
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.information {
+  background-color: black;
+  width: 1200px;
+  position: absolute;
+  top: 66%;
+}
+
+h2 {
+  display: block;
+  padding: 10px;
+  margin: 0px;
+}
+
+h4 {
+  display: block;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+/* Tea Types section */
+
+#teatypes {
+  padding-top: 70px;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.tea img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tea span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* Locations section */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+
+}
+
+
+.flex-container.locations {
+  display: inline-flex;
+  width: 1100px;
+  margin: 0px 50px;
+  padding-top: 5px;
+
+}
+
+.areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  flex-basis: 280px;
+  margin: 5px 20px;
+  opacity: 1;
+  padding: 10px;
+  width: 300px;
+}
+
+.flex-container.areas{
+  padding-top: 5px;
+}
+
+h3 {
+  padding: 10px;
+  margin: 0px;
+}
+
+p {
+  display: block
+}
+
+
+/* Contact section */
+
+#contact {
+  height: 200px;
+}
+
+
+/* Footer section */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
+h5 {
+  display: block;
+}
